@@ -31,7 +31,7 @@ const memesData = [
     id: 5,
     name: "Lirili Larilla",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob2Litc9uLU-96Ui8K5fIcdH6Lyy_IlSoRQ&s",
+      "https://i.pinimg.com/736x/15/0b/9f/150b9fcaf6a277bae1fc2b740f886f94.jpg",
     likes: Math.floor(Math.random() * 100),
   },
   {
@@ -51,7 +51,7 @@ const memesData = [
     id: 8,
     name: "Bobritto Bandito",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ov6NDl0FQ7YHdXadeNBcQca11fCsfITaAU_M_BMAdqcWrkKX2OMHVzRO8WAIRhNn9CY&usqp=CAU",
+      "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/36/e2/7b36e210-ce4e-3853-7cda-3046f36b36d9/artwork.jpg/1200x1200bb.jpg",
     likes: Math.floor(Math.random() * 100),
   },
   {
@@ -65,7 +65,7 @@ const memesData = [
     id: 10,
     name: "Burbaloni Luliloli ",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8kv2bXaXVzgx3eFv0n6iAzQhJY6XaXG5XIQ&s",
+      "https://media.printables.com/media/prints/223fdfce-ed5a-4870-a46c-66e89f358087/images/9466022_702f1f7e-1706-4aaf-8fec-66659d6f052d_c9d981f2-d591-400c-946c-05aafa7fb789/thumbs/cover/800x800/jpg/burbaloni-luliloli.jpg",
     likes: Math.floor(Math.random() * 100),
   },
 ];

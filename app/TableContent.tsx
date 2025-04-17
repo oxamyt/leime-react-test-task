@@ -111,7 +111,7 @@ export default function TableContent({
 
   return (
     <>
-      <Table aria-label="Example table with dynamic content">
+      <Table>
         <TableHeader columns={columns}>
           {columns.map((column) => (
             <TableColumn key={column.key}>{column.label}</TableColumn>

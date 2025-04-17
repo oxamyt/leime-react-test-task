@@ -27,27 +27,26 @@ export default function MemesList() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">Meme Directory</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">Meme Directory</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {memes.map((meme) => (
-          <Card key={meme.id} className="w-full">
-            <CardHeader>
-              <h2 className="text-xl font-semibold">{meme.name}</h2>
+          <Card
+            key={meme.id}
+            className="w-full flex flex-col items-center shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
+            <CardHeader className="flex justify-center items-center">
+              <h2 className="text-lg font-semibold">{meme.name}</h2>
             </CardHeader>
-            <CardBody>
-              <Image
-                src={meme.image}
-                alt={meme.name}
-                className="w-full h-48 object-cover"
-              />
+            <CardBody className="w-full flex justify-center items-center p-4">
+              <Image src={meme.image} alt={meme.name} />
             </CardBody>
-            <CardFooter className="flex flex-col items-start">
-              <p className="text-sm">Likes: {meme.likes}</p>
+            <CardFooter className="w-full flex flex-col items-center gap-2">
+              <p className="text-sm0">Likes: {meme.likes}</p>
               <a
                 href={meme.image}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:underline text-sm truncate w-full"
+                className="text-blue-500 hover:underline text-sm truncate max-w-full"
               >
                 View Image
               </a>
